@@ -13,6 +13,7 @@ import TanstackQueryDemo from './question9-tanstack-query/TanstackQueryDemo.jsx'
 import SearchHighlightTable from './question10-search-highlight/SearchHighlightTable.jsx'; // Question 10
 import CustomHooksDemo from './question11-custom-hooks/CustomHooksDemo.jsx'; // Question 11
 import MemoCallbackDemo from './question12-useMemo-useCallback/MemoCallbackDemo.jsx'; // Question 12
+import ThrottleDebounceDemo from './question13-throttle-debounce/ThrottleDebounceDemo.jsx'; // Question 13
 import './index.css';
 
 // Simple hash-based switcher so each question stays independent.
@@ -30,6 +31,7 @@ const QUESTIONS = {
   '#q10': { label: 'Q10: Search highlight', Component: SearchHighlightTable },
   '#q11': { label: 'Q11: Custom hooks', Component: CustomHooksDemo },
   '#q12': { label: 'Q12: useMemo & useCallback', Component: MemoCallbackDemo },
+  '#q13': { label: 'Q13: Throttle vs Debounce', Component: ThrottleDebounceDemo },
 };
 
 function Root() {
